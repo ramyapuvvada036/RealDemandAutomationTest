@@ -16,6 +16,8 @@ public class NewTest extends BaseTest {
 	public void beforeTest() {
 
 		System.out.println("This is Before Test");
+		System.out.println("This is Before Test");
+		System.out.println("This is Before Test");
 	}
 
 	@AfterTest
