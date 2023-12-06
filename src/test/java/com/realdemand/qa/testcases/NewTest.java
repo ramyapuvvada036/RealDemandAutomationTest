@@ -10,13 +10,13 @@ public class NewTest extends BaseTest {
 	public void f() {
 
 		System.out.println("This is Test");
+		System.out.println("This is Test");
+		System.out.println("This is Test");
 	}
 
 	@BeforeTest
 	public void beforeTest() {
 
-		System.out.println("This is Before Test");
-		System.out.println("This is Before Test");
 		System.out.println("This is Before Test");
 	}
 
