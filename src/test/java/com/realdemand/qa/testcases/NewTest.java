@@ -2,27 +2,22 @@ package com.realdemand.qa.testcases;
 
 import org.testng.annotations.Test;
 import com.realdemand.qa.base.BaseTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.AfterTest;
 
 public class NewTest extends BaseTest {
 	@Test
 	public void f() {
 
-		System.out.println("This is Test");
-		System.out.println("This is Test");
-		System.out.println("This is Test");
-	}
+		String str = "ramya";
+		int count = 0;
+		for (int i = 0; i < str.length(); i++) {
 
-	@BeforeTest
-	public void beforeTest() {
-
-		System.out.println("This is Before Test");
-	}
-
-	@AfterTest
-	public void afterTest() {
-
-		System.out.println("This is After Test");
+			char ch = str.charAt(i);
+			
+			if(ch == 'a')
+			{
+				count++;
+			}
+			
+		}System.out.println("Count is:"+ count);
 	}
 }
